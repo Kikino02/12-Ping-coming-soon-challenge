@@ -9,7 +9,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ### Links:
 
-- Solution URL: [here](https://www.frontendmentor.io/solutions/tip-calculator-by-kikino-IFdO0ULWvB)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/ping-coming-soon-by-kikino-D3JAd7YHR5)
 - Live site URL: [here](https://12-ping-coming-soon-challenge.vercel.app/)
 
 ## My process

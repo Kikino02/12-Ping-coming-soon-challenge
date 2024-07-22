@@ -12,6 +12,7 @@
 }
 
 body {
+  padding: 25px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -31,14 +32,13 @@ body .main header {
 body .main header .header__img {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 body .main header .title {
-  display: block;
   font-size: 1.35rem;
   font-weight: 300;
   color: hsl(0, 0%, 59%);
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 body .main header .title .soon {
   color: hsl(209, 33%, 12%);
@@ -55,7 +55,7 @@ body .main header .form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
 }
 body .main header .form .email__input {
   width: 100%;
@@ -99,7 +99,7 @@ body .main header .form .btn:hover {
   opacity: 0.8;
 }
 body .main main {
-  margin-bottom: 75px;
+  margin-bottom: 50px;
 }
 body .main main .dashboard__img {
   width: 100%;
@@ -140,6 +140,12 @@ body .main footer .copyright {
 @media screen and (min-width: 600px) {
   body .main {
     max-width: 700px;
+  }
+  body .main header .title {
+    font-size: 2.5rem;
+  }
+  body .main header .subtitle {
+    font-size: 1.1rem;
   }
   body .main header .form {
     flex-direction: row;
