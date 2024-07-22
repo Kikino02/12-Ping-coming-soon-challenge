@@ -18,73 +18,73 @@ body {
   justify-content: center;
   align-items: center;
 }
-body .main {
+body main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 25px;
 }
-body .main .header {
+body main .header {
   width: 100%;
   text-align: center;
 }
-body .main .header .header__img {
+body main .header .header__img {
   display: flex;
   justify-content: center;
   margin-bottom: 35px;
 }
-body .main .header .title {
+body main .header .title {
   font-size: 1.35rem;
   font-weight: 300;
   color: hsl(0, 0%, 59%);
   margin-bottom: 20px;
 }
-body .main .header .title .soon {
+body main .header .title .soon {
   color: hsl(209, 33%, 12%);
   font-weight: 700;
 }
-body .main .header .subtitle {
+body main .header .subtitle {
   font-size: 0.9rem;
   font-weight: 300;
   color: hsl(209, 33%, 12%);
   margin-bottom: 40px;
 }
-body .main .header .form {
+body main .header .form {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 50px;
 }
-body .main .header .form .email__input {
+body main .header .form .email__input {
   width: 100%;
   padding: 15px 30px;
   border-radius: 25px;
   border: 1px solid hsl(223, 100%, 88%);
   outline: none;
 }
-body .main .header .form .email__input::-moz-placeholder {
+body main .header .form .email__input::-moz-placeholder {
   color: hsl(0, 0%, 59%);
 }
-body .main .header .form .email__input::placeholder {
+body main .header .form .email__input::placeholder {
   color: hsl(0, 0%, 59%);
 }
-body .main .header .form .email__input.error {
+body main .header .form .email__input.error {
   border: 1px solid hsl(354, 100%, 66%);
 }
-body .main .header .form .error__msg {
+body main .header .form .error__msg {
   font-size: 0.75rem;
   margin-bottom: 15px;
   margin-top: 5px;
 }
-body .main .header .form .error__msg.error-text {
+body main .header .form .error__msg.error-text {
   color: hsl(354, 100%, 66%);
 }
-body .main .header .form .error__msg.success {
+body main .header .form .error__msg.success {
   color: green;
 }
-body .main .header .form .btn {
+body main .header .form .btn {
   width: 100%;
   padding: 15px 30px;
   border-radius: 25px;
@@ -95,26 +95,26 @@ body .main .header .form .btn {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-body .main .header .form .btn:hover {
+body main .header .form .btn:hover {
   opacity: 0.8;
 }
-body .main .main__content {
+body main .main {
   margin-bottom: 50px;
 }
-body .main .main__content .dashboard__img {
+body main .main .dashboard__img {
   width: 100%;
   max-width: 720px;
 }
-body .main .footer {
+body main .footer {
   text-align: center;
 }
-body .main .footer .footer__icons {
+body main .footer .footer__icons {
   display: flex;
   justify-content: center;
   gap: 20px;
   margin-bottom: 20px;
 }
-body .main .footer .footer__icons .bx {
+body main .footer .footer__icons .bx {
   font-size: 1.5rem;
   color: hsl(223, 87%, 63%);
   border: 1px solid hsl(223, 100%, 88%);
@@ -123,11 +123,11 @@ body .main .footer .footer__icons .bx {
   cursor: pointer;
   transition: all 0.3s ease;
 }
-body .main .footer .footer__icons .bx:hover {
+body main .footer .footer__icons .bx:hover {
   background-color: hsl(223, 87%, 63%);
   color: white;
 }
-body .main .footer .copyright {
+body main .footer .copyright {
   font-size: 0.75rem;
   color: hsl(0, 0%, 59%);
 }
@@ -138,28 +138,28 @@ body .main .footer .copyright {
   }
 }
 @media screen and (min-width: 600px) {
-  body .main {
+  body main {
     max-width: 700px;
   }
-  body .main .header .title {
+  body main .header .title {
     font-size: 2.5rem;
   }
-  body .main .header .subtitle {
+  body main .header .subtitle {
     font-size: 1.1rem;
   }
-  body .main .header .form {
+  body main .header .form {
     flex-direction: row;
     gap: 10px;
   }
-  body .main .header .form .email__input {
+  body main .header .form .email__input {
     width: 75%;
   }
-  body .main .header .form .error__msg {
+  body main .header .form .error__msg {
     position: absolute;
     top: 50px;
     left: 30px;
   }
-  body .main .header .form .btn {
+  body main .header .form .btn {
     width: 25%;
   }
 }/*# sourceMappingURL=styles.css.map */
