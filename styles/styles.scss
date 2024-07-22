@@ -31,7 +31,7 @@ body{
         align-items: center;
         justify-content: center;
         padding: 25px;
-        header{
+        .header{
             width: 100%;
             text-align: center;
             .header__img{
@@ -101,14 +101,14 @@ body{
                 }
             }
         }
-        main{
+        .main__content{
             margin-bottom: 50px;
             .dashboard__img{
                 width: 100%;
                 max-width: 720px;
             }
         }
-        footer{
+        .footer{
             text-align: center;
             .footer__icons{
                 display: flex;
@@ -151,7 +151,7 @@ body{
     body{ 
         .main{
             max-width: 700px;
-            header{
+            .header{
                 .title{
                     font-size: 2.5rem;
                 }
